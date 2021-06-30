@@ -1,0 +1,16 @@
+aws_profile               = "default"
+aws_region                = "us-east-1"
+vpc                       = "10.10.13.0/24"
+gatewaynet                = "10.10.13.0/26"
+servicenet                = "10.10.13.128/25"
+nlbA                      = "10.10.13.134"
+instanceA                 = "10.10.13.135"
+service_clients           = ["127.0.0.1/32"]
+service_ports             = ["8888", "8889"]
+service_protocol          = "UDP"
+instance_type             = "t4g.small"
+instance_diskgb           = 20
+ssh_key                   = "ssh-rsa AAAAAAA_replaceme_replaceme_replaceme..." 
+name_prefix               = "test"
+vendor_ami_account_number = "099720109477"
+vendor_ami_name_string    = "ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-20210415"
